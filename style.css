@@ -4,28 +4,21 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    line-height: 1.6; /* Better line spacing */
-    box-sizing: border-box; /* Advanced CSS rule */
-}
-
-/* Hierarchical selector */
-header nav a:nth-of-type(2) {
-    background-color: #ff6347;
-    color: #fff !important; 
+    line-height: 1.6; 
+    box-sizing: border-box; 
 }
 
 header {
-    display: flex; /* Use of CSS Flex */
+    display: flex; 
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 69, 0, 0.9);
     padding: 10px 0;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1; /* Advanced CSS rule */
 }
 
 nav a {
-    margin: calc(1rem - 5px); /* Advanced CSS rule using calc() */
+    margin: calc(1rem - 5px); 
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -40,7 +33,7 @@ nav a:hover {
 }
 
 main {
-    display: grid; /* Use of CSS Grid */
+    display: grid; 
     grid-template-columns: 1fr; 
     gap: 1rem;
     padding: 20px;
@@ -90,4 +83,3 @@ main {
         grid-template-columns: repeat(2, 1fr); /* Two columns for larger screens */
     }
 }
-
