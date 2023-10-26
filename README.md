@@ -25,7 +25,7 @@ Explore Naruto's portfolio showcasing his missions and adventures on the [Portfo
 
 ## Contact
 
-If you'd like to get in touch with Naruto, you can send him an email at [naruto@example.com](mailto:naruto@example.com). Visit the [Contact page](contact.html) for more details.
+If you'd like to get in touch with Naruto, you can send him an email at [naruto@example.com](mailto:d.n.stroupe@gmail.com). Visit the [Contact page](contact.html) for more details.
 
 ## Getting Started
 
