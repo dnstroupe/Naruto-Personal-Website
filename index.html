@@ -3,44 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Naruto Uzumaki - Personal Website</title>
+    <title>Naruto Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Roboto font link -->
+    <script src="scripts.js" defer></script>
   </head>
+
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
       </nav>
     </header>
-    <section>
+    <main>
+      <h1>Welcome to Naruto's World</h1>
       <img
-        src="https://static.wixstatic.com/media/ef3bd4_73714941e1a64c60b1844d07381dbcd8~mv2.png/v1/fill/w_480,h_602,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef3bd4_73714941e1a64c60b1844d07381dbcd8~mv2.png"
-        alt="Naruto Uzumaki"
+        class="naruto-img"
+        src="https://qph.cf2.quoracdn.net/main-qimg-f8f0090722c271505e8baed1996275b3"
+        alt="Naruto Image"
+        width="300"
       />
-      <blockquote>
-        <p>"I'm going to be the Hokage someday!"</p>
-      </blockquote>
-    </section>
-    <section>
-      <h2>Welcome to Naruto's Personal Website</h2>
-      <p>
-        This is Naruto Uzumaki's personal website, where he shares his journey
-        to become the Hokage of Konohagakure. Follow along as he overcomes
-        challenges, enjoys his favorite ramen, and perfects his ninja skills.
-      </p>
-    </section>
-
-    <!-- Countdown Timer -->
-    <div id="countdown"></div>
-
-    <!-- "Hello World" Display -->
-    <div id="output"></div>
-
-    <!-- Include the JavaScript File -->
-    <script src="javascript.js"></script>
+      <p>Join Naruto in his adventures in the Hidden Leaf Village!</p>
+      <!-- The div where the message will be displayed -->
+      <div id="message"></div>
+    </main>
   </body>
 </html>

@@ -1,67 +1,71 @@
-/* Reset some default styles */
-body,
-h1,
-h2,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* Basic styling */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffd700;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;  /* Better line spacing */
 }
 
 header {
-  background-color: #007bff;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-}
-
-/* Navigation Menu */
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+    background-color: rgba(255, 69, 0, 0.9);
+    padding: 10px 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-/* Section Styling */
-section {
-  padding: 2rem;
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+main {
+    padding: 20px;
+    max-width: 800px; /* Limit the width for readability */
+    margin: 0 auto;   /* Center the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-blockquote {
-  font-style: italic;
-  margin-top: 10px;
+.img-container {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px auto;
 }
 
-/* Style links */
-a {
-  color: #007bff;
-  text-decoration: none;
+.naruto-img, .naruto-about-img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    transition: transform 0.3s;
+    max-width: 100%; /* Responsive Image */
 }
 
-a:hover {
-  text-decoration: underline;
+.naruto-img:hover, .naruto-about-img:hover {
+    transform: scale(1.05);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #ff4500;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #ff6347;
+    transform: scale(1.05);
 }
